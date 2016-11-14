@@ -1,5 +1,6 @@
-body { background-image: url(../assets/images/bg.jpg);
-		background-attachment: fixed;
+body {/* background-image: url(../assets/images/bg.jpg);
+		background-attachment: fixed; */
+		background-color: #a69595;
 	   padding-top: 50px;
 	 }
 

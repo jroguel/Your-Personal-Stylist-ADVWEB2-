@@ -14,12 +14,12 @@
 	<div class="collapse navbar-collapse">
 		
 		<ul class="nav navbar-nav">
-			<li><a href="#">Home</a></li>
+			<li><a href="<?php echo site_url('..') ?>">Home</a></li>
 			<li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Closet <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="<?php echo site_url('product') ?>">View Items</a></li>
-                <li><a href="<?php echo base_url('index.php/products') ?>">Add Item</a></li>
+                <li><a href="<?php echo base_url('index.php/products') ?>">View Outfits</a></li>
                 <li><a href="#">Share</a></li>
               </ul>
             </li>

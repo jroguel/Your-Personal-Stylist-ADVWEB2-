@@ -4,13 +4,12 @@
 
 <div class="container">
   <div class="list-group">
-    <a href="#" class="list-group-item">
+    <a href="<?php echo site_url('news/'.$product_item['slug']); ?>" class="list-group-item">
       <h4 class="list-group-item-heading"><?php echo $product_item['brand']; ?></h4>
       <p class="list-group-item-text">PHP <?php echo + $product_item['price']; ?></p>
     </a>
   </div>
 </div>
-
 
 <?php endforeach; ?>
 </div>
