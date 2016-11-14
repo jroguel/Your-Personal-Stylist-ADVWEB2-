@@ -1,4 +1,5 @@
 body { background-image: url(../assets/images/bg.jpg);
+		background-attachment: fixed;
 	   padding-top: 50px;
 	 }
 
