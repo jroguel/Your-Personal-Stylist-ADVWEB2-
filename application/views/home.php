@@ -6,8 +6,8 @@
   </div>
 -->
   <div class="row carousel-holder">
-
-                    <div class="col-md-7">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
                         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators">
                                 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -37,6 +37,8 @@
                             </a>
                         </div>
                     </div>
+                    <div class="col-md-3"></div>
+                    </div>
                 <?php
                 echo "<h2>Recommended Styles for Today, " .date("l")." ".date("m/d/Y"). "</h2>"; 
                 ?>
@@ -44,7 +46,7 @@
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
+                            <img src="assets/images/model1.jpg" alt="">
                             <div class="caption">
                                 <h4 class="pull-right">Php2499.99</h4>
                                 <h4><a href="#">Sporty</a>
@@ -63,7 +65,7 @@
                             </div>
                         </div>
                     </div>
-</div>
+
   
 </div><!-- /.container -->
 	

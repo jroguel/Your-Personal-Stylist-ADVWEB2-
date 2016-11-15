@@ -1,3 +1,4 @@
 <?php
 echo '<h2>'.$product_item['brand'].'</h2>';
-echo Php $news_item['price'];
+echo Php $product_item['price'];
+?>

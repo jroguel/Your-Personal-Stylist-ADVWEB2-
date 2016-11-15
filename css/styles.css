@@ -4,6 +4,47 @@ body {/* background-image: url(../assets/images/bg.jpg);
 	   padding-top: 50px;
 	 }
 
+table{
+border: 15px solid #000;
+border-collapse:collapse;
+margin-top: 50px;
+margin-left: 100px;
+}
+td{
+width: 75px;
+height: 75px;
+text-align: center;
+border: 2px solid #000;
+font-size: 18px;
+font-weight: bold;
+}
+th{
+height: 75px;
+padding-bottom: 8px;
+background:#000;
+font-size: 20px;
+color:white;
+text-align:center;
+}
+.prev_sign a, .next_sign a{
+color:white;
+text-decoration: none;
+}
+tr.week_name{
+font-size: 16px;
+font-weight:400;
+color:red;
+width: 10px;
+background-color: #efe8e8;
+}
+.highlight{
+background-color:#000;
+color:white;
+height: 27px;
+text-align:inherit;
+}
+
+
 #footer_container { background:#000; 
 					border:1px solid #666; 
 					bottom:0; 
