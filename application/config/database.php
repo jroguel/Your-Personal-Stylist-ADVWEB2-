@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /*
-| -------------------------------------------------------------------
+| ------------------------------------------------------------------
 | DATABASE CONNECTIVITY SETTINGS
 | -------------------------------------------------------------------
 | This file will contain the settings needed to access your database.
@@ -76,8 +76,8 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
+	'username' => 'advweb25_webuser',
+	'password' => 'advweb25_',
 	'database' => 'product',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
