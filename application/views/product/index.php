@@ -18,7 +18,7 @@
                                 <h4 class="pull-right">Php<?php echo $product_item['price']; ?></h4>
                                 <h4><a href="#"><?php echo $product_item['brand']; ?></a>
                                 </h4>
-                                <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
+                                <p><?php echo $product_item['description']?></p>
                             </div>
                             <div class="ratings">
                                 <p class="pull-right">15 reviews</p>
